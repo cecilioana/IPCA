@@ -1,5 +1,5 @@
 import express from 'express';
-import { buscarIPCA, buscarAno, buscarId, calcularIPCA, validarParametros } from './servicos/servico.js';
+import { buscarIPCA, buscarAno, buscarId, calcularIPCA, validarParametros } from './servico/servico.js';
 
 const app = express();
 
